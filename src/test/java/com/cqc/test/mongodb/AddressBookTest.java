@@ -23,6 +23,11 @@ public class AddressBookTest {
     @Autowired
     MongoTemplate mongoTemplate;
 
+    public void gitcommittest(){
+        System.out.println(1);
+
+    }
+
 //    @Autowired
 //    jdbcTemplate
 
