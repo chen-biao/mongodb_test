@@ -2,6 +2,7 @@ package com.cqc.test.mongodb;
 
 import com.cqc.test.mongodb.entity.AddressBook;
 import com.cqc.test.mongodb.entity.PasreAndRaw;
+import org.bson.types.ObjectId;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -63,6 +64,14 @@ public class AddressBookTest {
         });
 
 
+
+
+    }
+
+    public static void main(String[] args) {
+        ObjectId objectId = new ObjectId();
+        System.out.println(objectId.toString());
+        System.out.println(objectId.toHexString());
 
 
     }
